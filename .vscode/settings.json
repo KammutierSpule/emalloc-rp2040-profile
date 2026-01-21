@@ -1,0 +1,11 @@
+{
+    "clangd.path": "/usr/bin/clangd",
+    "C_Cpp.formatting": "disabled",
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "gitblame.inlineMessageEnabled": true,
+    "editor.rulers": [
+        80
+    ]
+}

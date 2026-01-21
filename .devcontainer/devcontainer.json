@@ -1,0 +1,26 @@
+{
+	"name": "RaspberryPiPico",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"mounts": [
+		"source=extensionCache,target=/root/.vscode-server/extensions,type=volume",
+		"source=/dev,target=/dev,type=bind,consistency=cached"
+	],
+	"runArgs": [
+		"--privileged",
+		"--name",
+		"RaspberryPiPico"
+	],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.cmake-tools",
+				"cheshirekow.cmake-format",
+				"xaver.clang-format",
+				"llvm-vs-code-extensions.vscode-clangd",
+				"streetsidesoftware.code-spell-checker"
+			]
+		}
+	}
+}

@@ -1,0 +1,6 @@
+[submodule "components/FreeRTOS/FreeRTOS"]
+	path = components/FreeRTOS/FreeRTOS
+	url = git@github.com:FreeRTOS/FreeRTOS-Kernel.git
+[submodule "components/emalloc/emalloc"]
+	path = components/emalloc/emalloc
+	url = https://github.com/KammutierSpule/emalloc
