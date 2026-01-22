@@ -1,0 +1,1637 @@
+empty number of cycles:263
+f_clk_sys:125000 khz
+Running 15 tests...
+[1/15] Running test: AllocAll16FreeOdd
+libc heap: free chunk=0, free fastbin=0, free=0 alloc=0
+emalloc.alloc ticks min=213 avg=214.9 max=3367 (n=2048)
+emalloc.free ticks min=234 avg=251.5 max=4108 (n=2048)
+freertos.alloc ticks min=166 avg=166.5 max=1174 (n=2048)
+freertos.free ticks min=133 avg=1675.0 max=6638 (n=2048)
+libc.alloc ticks min=367 avg=372.2 max=8632 (n=2048)
+libc.free ticks min=336 avg=368.4 max=2854 (n=2048)
+
+[2/15] Running test: AllocAll16FreeEven
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=213 avg=213.7 max=1705 (n=2048)
+emalloc.free ticks min=234 avg=250.0 max=1189 (n=2048)
+freertos.alloc ticks min=165 avg=165.3 max=874 (n=2048)
+freertos.free ticks min=133 avg=1674.0 max=6265 (n=2048)
+libc.alloc ticks min=367 avg=369.6 max=5698 (n=2048)
+libc.free ticks min=336 avg=367.4 max=1496 (n=2048)
+
+[3/15] Running test: AllocAll16FreeOddReversed
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=213 avg=213.1 max=491 (n=2048)
+emalloc.free ticks min=234 avg=249.4 max=917 (n=2048)
+freertos.alloc ticks min=165 avg=165.2 max=669 (n=2048)
+freertos.free ticks min=127 avg=139.5 max=152 (n=2048)
+libc.alloc ticks min=367 avg=368.4 max=3328 (n=2048)
+libc.free ticks min=322 avg=366.7 max=866 (n=2048)
+
+[4/15] Running test: AllocAll16FreeEvenReversed
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=213 avg=213.1 max=491 (n=2048)
+emalloc.free ticks min=207 avg=249.3 max=887 (n=2048)
+freertos.alloc ticks min=165 avg=165.3 max=770 (n=2048)
+freertos.free ticks min=127 avg=139.5 max=152 (n=2048)
+libc.alloc ticks min=367 avg=368.3 max=2975 (n=2048)
+libc.free ticks min=336 avg=366.6 max=943 (n=2048)
+
+[5/15] Running test: Alloc5Release3_16b
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=162 avg=4052.7 max=25424 (n=5114)
+emalloc.free ticks min=207 avg=2082.3 max=121593 (n=5114)
+freertos.alloc ticks min=157 avg=170.6 max=1027 (n=5114)
+freertos.free ticks min=127 avg=479.7 max=1999 (n=5114)
+libc.alloc ticks min=320 avg=358.8 max=3633 (n=5114)
+libc.free ticks min=311 avg=345.0 max=991 (n=5114)
+
+[6/15] Running test: Alloc5Release3_64b
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=162 avg=3229.2 max=20823 (n=3335)
+emalloc.free ticks min=207 avg=3572.5 max=109044 (n=3334)
+freertos.alloc ticks min=157 avg=240.7 max=573 (n=3005)
+freertos.free ticks min=127 avg=372.8 max=1447 (n=3004)
+libc.alloc ticks min=320 avg=375.7 max=3582 (n=5114)
+libc.free ticks min=311 avg=347.2 max=1070 (n=5114)
+
+[7/15] Running test: Alloc5Release3_128b
+libc heap: free chunk=1, free fastbin=0, free=101608 alloc=4
+emalloc.alloc ticks min=164 avg=2381.7 max=58679 (n=1992)
+emalloc.free ticks min=207 avg=3175.6 max=60649 (n=1991)
+freertos.alloc ticks min=157 avg=371.4 max=828 (n=1870)
+freertos.free ticks min=127 avg=325.2 max=1087 (n=1869)
+libc.alloc ticks min=320 avg=385.9 max=4560 (n=4660)
+libc.free ticks min=311 avg=349.3 max=2403 (n=4659)
+
+[8/15] Running test: Alloc5Release3_256b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=162 avg=1579.2 max=8873 (n=1053)
+emalloc.free ticks min=207 avg=2424.8 max=44097 (n=1052)
+freertos.alloc ticks min=157 avg=398.3 max=930 (n=1070)
+freertos.free ticks min=127 avg=289.0 max=770 (n=1069)
+libc.alloc ticks min=320 avg=410.8 max=4126 (n=2579)
+libc.free ticks min=311 avg=352.7 max=1346 (n=2578)
+
+[9/15] Running test: Alloc5Release3_512b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=177 avg=977.6 max=5245 (n=543)
+emalloc.free ticks min=207 avg=1862.7 max=20894 (n=542)
+freertos.alloc ticks min=157 avg=363.8 max=854 (n=561)
+freertos.free ticks min=127 avg=237.9 max=534 (n=560)
+libc.alloc ticks min=320 avg=436.3 max=2807 (n=1303)
+libc.free ticks min=311 avg=358.1 max=1143 (n=1302)
+
+[10/15] Running test: Alloc6Release2_16b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=164 avg=2108.6 max=23014 (n=3070)
+emalloc.free ticks min=207 avg=1152.1 max=95634 (n=3070)
+freertos.alloc ticks min=157 avg=172.3 max=673 (n=3070)
+freertos.free ticks min=127 avg=479.1 max=1153 (n=3070)
+libc.alloc ticks min=320 avg=362.4 max=3969 (n=3070)
+libc.free ticks min=336 avg=351.8 max=1092 (n=3070)
+
+[11/15] Running test: Alloc6Release2_32b
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=175 avg=2285.4 max=26968 (n=3069)
+emalloc.free ticks min=207 avg=1961.7 max=146948 (n=3068)
+freertos.alloc ticks min=157 avg=173.9 max=467 (n=2693)
+freertos.free ticks min=127 avg=460.5 max=1105 (n=2692)
+libc.alloc ticks min=320 avg=375.9 max=3780 (n=3070)
+libc.free ticks min=322 avg=353.1 max=892 (n=3070)
+
+[12/15] Running test: Alloc6Release2_64b
+libc heap: free chunk=1, free fastbin=0, free=68840 alloc=4
+emalloc.alloc ticks min=177 avg=1475.1 max=19804 (n=2008)
+emalloc.free ticks min=207 avg=2087.6 max=114562 (n=2007)
+freertos.alloc ticks min=157 avg=183.5 max=676 (n=1831)
+freertos.free ticks min=127 avg=386.1 max=937 (n=1830)
+libc.alloc ticks min=320 avg=383.3 max=3975 (n=3070)
+libc.free ticks min=311 avg=353.9 max=740 (n=3070)
+
+[13/15] Running test: Alloc6Release2_128b
+libc heap: free chunk=1, free fastbin=0, free=101608 alloc=4
+emalloc.alloc ticks min=164 avg=1018.0 max=13104 (n=1168)
+emalloc.free ticks min=207 avg=1761.4 max=62525 (n=1167)
+freertos.alloc ticks min=157 avg=236.0 max=626 (n=1137)
+freertos.free ticks min=127 avg=308.2 max=757 (n=1136)
+libc.alloc ticks min=320 avg=393.7 max=3393 (n=2878)
+libc.free ticks min=311 avg=356.7 max=1142 (n=2877)
+
+[14/15] Running test: Alloc6Release2_256b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=177 avg=651.5 max=8208 (n=640)
+emalloc.free ticks min=207 avg=1312.8 max=29907 (n=639)
+freertos.alloc ticks min=157 avg=302.7 max=575 (n=671)
+freertos.free ticks min=127 avg=270.2 max=541 (n=670)
+libc.alloc ticks min=320 avg=409.9 max=3728 (n=1554)
+libc.free ticks min=336 avg=360.8 max=1194 (n=1553)
+
+[15/15] Running test: Alloc6Release2_512b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=196 avg=545.1 max=4872 (n=339)
+emalloc.free ticks min=207 avg=1386.3 max=25597 (n=338)
+freertos.alloc ticks min=157 avg=289.2 max=500 (n=357)
+freertos.free ticks min=127 avg=221.3 max=427 (n=356)
+libc.alloc ticks min=320 avg=428.8 max=3306 (n=828)
+libc.free ticks min=336 avg=364.7 max=1145 (n=827)
+
+
+All tests completed: 15/15
+About to restart testing 10
+About to restart testing 9
+About to restart testing 8
+About to restart testing 7
+About to restart testing 6
+About to restart testing 5
+About to restart testing 4
+About to restart testing 3
+About to restart testing 2
+About to restart testing 1
+empty number of cycles:12
+f_clk_sys:125001 khz
+Running 15 tests...
+[1/15] Running test: AllocAll16FreeOdd
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=213 avg=213.5 max=895 (n=2048)
+emalloc.free ticks min=234 avg=249.3 max=888 (n=2048)
+freertos.alloc ticks min=165 avg=165.2 max=620 (n=2048)
+freertos.free ticks min=127 avg=1674.0 max=6282 (n=2048)
+libc.alloc ticks min=367 avg=369.7 max=3715 (n=2048)
+libc.free ticks min=336 avg=366.7 max=841 (n=2048)
+
+[2/15] Running test: AllocAll16FreeEven
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=213 avg=213.3 max=794 (n=2048)
+emalloc.free ticks min=234 avg=249.3 max=860 (n=2048)
+freertos.alloc ticks min=165 avg=165.2 max=518 (n=2048)
+freertos.free ticks min=127 avg=1674.0 max=6265 (n=2048)
+libc.alloc ticks min=367 avg=368.4 max=3329 (n=2048)
+libc.free ticks min=336 avg=366.9 max=993 (n=2048)
+
+[3/15] Running test: AllocAll16FreeOddReversed
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=213 avg=213.1 max=491 (n=2048)
+emalloc.free ticks min=234 avg=249.3 max=918 (n=2048)
+freertos.alloc ticks min=165 avg=165.2 max=518 (n=2048)
+freertos.free ticks min=127 avg=139.5 max=152 (n=2048)
+libc.alloc ticks min=367 avg=368.4 max=3176 (n=2048)
+libc.free ticks min=322 avg=366.6 max=841 (n=2048)
+
+[4/15] Running test: AllocAll16FreeEvenReversed
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=213 avg=213.1 max=491 (n=2048)
+emalloc.free ticks min=207 avg=249.3 max=888 (n=2048)
+freertos.alloc ticks min=165 avg=165.3 max=873 (n=2048)
+freertos.free ticks min=127 avg=139.5 max=177 (n=2048)
+libc.alloc ticks min=367 avg=368.3 max=3126 (n=2048)
+libc.free ticks min=336 avg=366.9 max=1196 (n=2048)
+
+[5/15] Running test: Alloc5Release3_16b
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=164 avg=4243.8 max=27008 (n=5114)
+emalloc.free ticks min=207 avg=2249.2 max=156745 (n=5114)
+freertos.alloc ticks min=157 avg=171.9 max=982 (n=5114)
+freertos.free ticks min=127 avg=468.2 max=1879 (n=5114)
+libc.alloc ticks min=320 avg=358.3 max=3580 (n=5114)
+libc.free ticks min=311 avg=344.8 max=1195 (n=5114)
+
+[6/15] Running test: Alloc5Release3_64b
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=164 avg=3274.3 max=20964 (n=3330)
+emalloc.free ticks min=207 avg=3635.7 max=80384 (n=3329)
+freertos.alloc ticks min=157 avg=269.3 max=577 (n=3025)
+freertos.free ticks min=127 avg=377.3 max=1489 (n=3024)
+libc.alloc ticks min=320 avg=374.4 max=3400 (n=5114)
+libc.free ticks min=311 avg=346.8 max=867 (n=5114)
+
+[7/15] Running test: Alloc5Release3_128b
+libc heap: free chunk=1, free fastbin=0, free=101608 alloc=4
+emalloc.alloc ticks min=164 avg=2233.8 max=67047 (n=1947)
+emalloc.free ticks min=207 avg=3306.8 max=58772 (n=1946)
+freertos.alloc ticks min=157 avg=386.8 max=918 (n=1875)
+freertos.free ticks min=127 avg=326.6 max=1032 (n=1874)
+libc.alloc ticks min=320 avg=388.1 max=4258 (n=4524)
+libc.free ticks min=311 avg=349.6 max=1194 (n=4523)
+
+[8/15] Running test: Alloc5Release3_256b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=164 avg=1627.3 max=56418 (n=1053)
+emalloc.free ticks min=207 avg=2642.7 max=42205 (n=1052)
+freertos.alloc ticks min=157 avg=388.8 max=876 (n=1023)
+freertos.free ticks min=127 avg=276.9 max=757 (n=1022)
+libc.alloc ticks min=320 avg=409.2 max=4574 (n=2629)
+libc.free ticks min=311 avg=352.4 max=1295 (n=2628)
+
+[9/15] Running test: Alloc5Release3_512b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=164 avg=1008.6 max=31200 (n=525)
+emalloc.free ticks min=207 avg=1823.4 max=23427 (n=524)
+freertos.alloc ticks min=157 avg=356.5 max=721 (n=572)
+freertos.free ticks min=127 avg=234.2 max=481 (n=571)
+libc.alloc ticks min=320 avg=434.7 max=3510 (n=1361)
+libc.free ticks min=311 avg=357.5 max=1395 (n=1360)
+
+[10/15] Running test: Alloc6Release2_16b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=164 avg=2117.6 max=22943 (n=3070)
+emalloc.free ticks min=207 avg=1422.1 max=116852 (n=3070)
+freertos.alloc ticks min=157 avg=171.5 max=726 (n=3070)
+freertos.free ticks min=127 avg=474.7 max=1075 (n=3070)
+libc.alloc ticks min=320 avg=362.5 max=3816 (n=3070)
+libc.free ticks min=336 avg=352.3 max=891 (n=3070)
+
+[11/15] Running test: Alloc6Release2_32b
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=162 avg=2163.5 max=27869 (n=3070)
+emalloc.free ticks min=207 avg=2107.4 max=141530 (n=3070)
+freertos.alloc ticks min=157 avg=174.3 max=574 (n=2669)
+freertos.free ticks min=127 avg=459.5 max=1099 (n=2668)
+libc.alloc ticks min=320 avg=375.5 max=3814 (n=3070)
+libc.free ticks min=311 avg=353.3 max=891 (n=3070)
+
+[12/15] Running test: Alloc6Release2_64b
+libc heap: free chunk=1, free fastbin=0, free=64744 alloc=4
+emalloc.alloc ticks min=164 avg=1500.1 max=19082 (n=2016)
+emalloc.free ticks min=207 avg=1829.7 max=99708 (n=2015)
+freertos.alloc ticks min=157 avg=187.3 max=623 (n=1863)
+freertos.free ticks min=127 avg=397.5 max=949 (n=1862)
+libc.alloc ticks min=320 avg=382.9 max=3973 (n=3070)
+libc.free ticks min=311 avg=354.3 max=792 (n=3070)
+
+[13/15] Running test: Alloc6Release2_128b
+libc heap: free chunk=1, free fastbin=0, free=97512 alloc=4
+emalloc.alloc ticks min=164 avg=1090.9 max=12671 (n=1202)
+emalloc.free ticks min=207 avg=1857.7 max=63476 (n=1201)
+freertos.alloc ticks min=157 avg=221.2 max=674 (n=1155)
+freertos.free ticks min=127 avg=308.1 max=745 (n=1154)
+libc.alloc ticks min=320 avg=392.4 max=3857 (n=2775)
+libc.free ticks min=311 avg=357.8 max=1042 (n=2774)
+
+[14/15] Running test: Alloc6Release2_256b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=190 avg=718.9 max=7592 (n=624)
+emalloc.free ticks min=207 avg=1370.1 max=27109 (n=623)
+freertos.alloc ticks min=157 avg=298.3 max=524 (n=683)
+freertos.free ticks min=127 avg=247.6 max=499 (n=682)
+libc.alloc ticks min=320 avg=409.1 max=3782 (n=1582)
+libc.free ticks min=311 avg=360.3 max=1043 (n=1581)
+
+[15/15] Running test: Alloc6Release2_512b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=164 avg=706.0 max=28137 (n=358)
+emalloc.free ticks min=207 avg=1259.8 max=28898 (n=357)
+freertos.alloc ticks min=157 avg=332.0 max=726 (n=344)
+freertos.free ticks min=127 avg=222.8 max=420 (n=343)
+libc.alloc ticks min=320 avg=432.2 max=4621 (n=800)
+libc.free ticks min=311 avg=365.1 max=1094 (n=799)
+
+
+All tests completed: 15/15
+About to restart testing 10
+About to restart testing 9
+About to restart testing 8
+About to restart testing 7
+About to restart testing 6
+About to restart testing 5
+About to restart testing 4
+About to restart testing 3
+About to restart testing 2
+About to restart testing 1
+empty number of cycles:12
+f_clk_sys:125000 khz
+Running 15 tests...
+[1/15] Running test: AllocAll16FreeOdd
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=213 avg=213.5 max=895 (n=2048)
+emalloc.free ticks min=234 avg=249.3 max=888 (n=2048)
+freertos.alloc ticks min=165 avg=165.2 max=518 (n=2048)
+freertos.free ticks min=127 avg=1674.0 max=6282 (n=2048)
+libc.alloc ticks min=367 avg=369.7 max=3764 (n=2048)
+libc.free ticks min=322 avg=366.6 max=891 (n=2048)
+
+[2/15] Running test: AllocAll16FreeEven
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=213 avg=213.3 max=793 (n=2048)
+emalloc.free ticks min=234 avg=249.3 max=860 (n=2048)
+freertos.alloc ticks min=165 avg=165.2 max=620 (n=2048)
+freertos.free ticks min=127 avg=1674.0 max=6265 (n=2048)
+libc.alloc ticks min=367 avg=368.3 max=2975 (n=2048)
+libc.free ticks min=336 avg=367.0 max=1046 (n=2048)
+
+[3/15] Running test: AllocAll16FreeOddReversed
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=213 avg=213.2 max=591 (n=2048)
+emalloc.free ticks min=234 avg=249.3 max=918 (n=2048)
+freertos.alloc ticks min=165 avg=165.2 max=620 (n=2048)
+freertos.free ticks min=127 avg=139.5 max=152 (n=2048)
+libc.alloc ticks min=367 avg=368.3 max=3026 (n=2048)
+libc.free ticks min=336 avg=366.8 max=966 (n=2048)
+
+[4/15] Running test: AllocAll16FreeEvenReversed
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=213 avg=213.1 max=491 (n=2048)
+emalloc.free ticks min=207 avg=249.3 max=888 (n=2048)
+freertos.alloc ticks min=165 avg=165.3 max=771 (n=2048)
+freertos.free ticks min=127 avg=139.5 max=152 (n=2048)
+libc.alloc ticks min=367 avg=368.3 max=3076 (n=2048)
+libc.free ticks min=336 avg=366.8 max=1145 (n=2048)
+
+[5/15] Running test: Alloc5Release3_16b
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=162 avg=4085.7 max=25818 (n=5114)
+emalloc.free ticks min=207 avg=2282.8 max=123083 (n=5114)
+freertos.alloc ticks min=157 avg=171.6 max=1131 (n=5114)
+freertos.free ticks min=127 avg=482.7 max=2011 (n=5114)
+libc.alloc ticks min=320 avg=357.7 max=3428 (n=5114)
+libc.free ticks min=311 avg=345.2 max=1044 (n=5114)
+
+[6/15] Running test: Alloc5Release3_64b
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=164 avg=3303.4 max=20719 (n=3305)
+emalloc.free ticks min=207 avg=3617.5 max=94735 (n=3304)
+freertos.alloc ticks min=157 avg=261.7 max=674 (n=3063)
+freertos.free ticks min=127 avg=375.1 max=1513 (n=3062)
+libc.alloc ticks min=320 avg=375.5 max=3776 (n=5114)
+libc.free ticks min=311 avg=347.1 max=941 (n=5114)
+
+[7/15] Running test: Alloc5Release3_128b
+libc heap: free chunk=1, free fastbin=0, free=101608 alloc=4
+emalloc.alloc ticks min=162 avg=2402.6 max=68836 (n=1899)
+emalloc.free ticks min=207 avg=3434.3 max=81125 (n=1898)
+freertos.alloc ticks min=157 avg=350.2 max=852 (n=1874)
+freertos.free ticks min=127 avg=326.2 max=1111 (n=1873)
+libc.alloc ticks min=320 avg=384.8 max=4662 (n=4594)
+libc.free ticks min=311 avg=349.5 max=1194 (n=4593)
+
+[8/15] Running test: Alloc5Release3_256b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=164 avg=1610.8 max=8414 (n=1032)
+emalloc.free ticks min=207 avg=2554.5 max=36240 (n=1031)
+freertos.alloc ticks min=157 avg=397.3 max=885 (n=1035)
+freertos.free ticks min=127 avg=286.2 max=817 (n=1034)
+libc.alloc ticks min=320 avg=408.3 max=3786 (n=2635)
+libc.free ticks min=311 avg=352.2 max=1042 (n=2634)
+
+[9/15] Running test: Alloc5Release3_512b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=162 avg=1075.1 max=29746 (n=541)
+emalloc.free ticks min=207 avg=1785.5 max=22143 (n=540)
+freertos.alloc ticks min=157 avg=327.2 max=677 (n=563)
+freertos.free ticks min=127 avg=228.9 max=458 (n=562)
+libc.alloc ticks min=320 avg=435.3 max=3082 (n=1278)
+libc.free ticks min=311 avg=358.2 max=993 (n=1277)
+
+[10/15] Running test: Alloc6Release2_16b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=162 avg=2245.7 max=23160 (n=3070)
+emalloc.free ticks min=207 avg=1275.4 max=120735 (n=3070)
+freertos.alloc ticks min=157 avg=170.6 max=523 (n=3070)
+freertos.free ticks min=127 avg=479.9 max=1081 (n=3070)
+libc.alloc ticks min=320 avg=362.9 max=4468 (n=3070)
+libc.free ticks min=311 avg=352.4 max=841 (n=3070)
+
+[11/15] Running test: Alloc6Release2_32b
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=177 avg=2151.8 max=24893 (n=3070)
+emalloc.free ticks min=207 avg=2108.4 max=133352 (n=3070)
+freertos.alloc ticks min=157 avg=174.4 max=623 (n=2680)
+freertos.free ticks min=127 avg=459.2 max=1099 (n=2679)
+libc.alloc ticks min=320 avg=375.6 max=4111 (n=3070)
+libc.free ticks min=311 avg=353.0 max=1094 (n=3070)
+
+[12/15] Running test: Alloc6Release2_64b
+libc heap: free chunk=1, free fastbin=0, free=68840 alloc=4
+emalloc.alloc ticks min=162 avg=1362.8 max=19555 (n=1949)
+emalloc.free ticks min=173 avg=2050.9 max=89654 (n=1948)
+freertos.alloc ticks min=157 avg=184.0 max=676 (n=1868)
+freertos.free ticks min=127 avg=401.1 max=1003 (n=1867)
+libc.alloc ticks min=320 avg=383.2 max=3997 (n=3070)
+libc.free ticks min=311 avg=354.1 max=942 (n=3070)
+
+[13/15] Running test: Alloc6Release2_128b
+libc heap: free chunk=1, free fastbin=0, free=97512 alloc=4
+emalloc.alloc ticks min=162 avg=1151.7 max=12096 (n=1204)
+emalloc.free ticks min=207 avg=1963.6 max=54997 (n=1203)
+freertos.alloc ticks min=157 avg=247.5 max=417 (n=1163)
+freertos.free ticks min=127 avg=328.9 max=775 (n=1162)
+libc.alloc ticks min=320 avg=392.2 max=3940 (n=2825)
+libc.free ticks min=311 avg=357.3 max=1042 (n=2824)
+
+[14/15] Running test: Alloc6Release2_256b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=177 avg=825.9 max=50156 (n=635)
+emalloc.free ticks min=207 avg=1390.3 max=41182 (n=634)
+freertos.alloc ticks min=157 avg=322.3 max=620 (n=620)
+freertos.free ticks min=127 avg=253.6 max=511 (n=619)
+libc.alloc ticks min=320 avg=407.5 max=3970 (n=1559)
+libc.free ticks min=311 avg=360.2 max=1245 (n=1558)
+
+[15/15] Running test: Alloc6Release2_512b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=188 avg=616.8 max=4659 (n=337)
+emalloc.free ticks min=207 avg=1184.3 max=16767 (n=336)
+freertos.alloc ticks min=157 avg=297.3 max=556 (n=345)
+freertos.free ticks min=127 avg=211.0 max=379 (n=344)
+libc.alloc ticks min=320 avg=429.0 max=3713 (n=802)
+libc.free ticks min=322 avg=364.8 max=1093 (n=801)
+
+
+All tests completed: 15/15
+About to restart testing 10
+About to restart testing 9
+About to restart testing 8
+About to restart testing 7
+About to restart testing 6
+About to restart testing 5
+About to restart testing 4
+About to restart testing 3
+About to restart testing 2
+About to restart testing 1
+empty number of cycles:12
+f_clk_sys:125000 khz
+Running 15 tests...
+[1/15] Running test: AllocAll16FreeOdd
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=213 avg=213.5 max=893 (n=2048)
+emalloc.free ticks min=234 avg=249.3 max=888 (n=2048)
+freertos.alloc ticks min=165 avg=165.2 max=520 (n=2048)
+freertos.free ticks min=127 avg=1674.0 max=6282 (n=2048)
+libc.alloc ticks min=367 avg=369.9 max=3863 (n=2048)
+libc.free ticks min=322 avg=366.9 max=1144 (n=2048)
+
+[2/15] Running test: AllocAll16FreeEven
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=213 avg=213.4 max=793 (n=2048)
+emalloc.free ticks min=234 avg=249.3 max=861 (n=2048)
+freertos.alloc ticks min=165 avg=165.2 max=620 (n=2048)
+freertos.free ticks min=127 avg=1674.0 max=6265 (n=2048)
+libc.alloc ticks min=367 avg=368.3 max=3025 (n=2048)
+libc.free ticks min=336 avg=366.9 max=1094 (n=2048)
+
+[3/15] Running test: AllocAll16FreeOddReversed
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=213 avg=213.1 max=491 (n=2048)
+emalloc.free ticks min=234 avg=249.3 max=918 (n=2048)
+freertos.alloc ticks min=165 avg=165.2 max=620 (n=2048)
+freertos.free ticks min=127 avg=139.5 max=152 (n=2048)
+libc.alloc ticks min=367 avg=368.3 max=3127 (n=2048)
+libc.free ticks min=322 avg=366.8 max=1018 (n=2048)
+
+[4/15] Running test: AllocAll16FreeEvenReversed
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=213 avg=213.1 max=491 (n=2048)
+emalloc.free ticks min=207 avg=249.3 max=888 (n=2048)
+freertos.alloc ticks min=165 avg=165.3 max=821 (n=2048)
+freertos.free ticks min=127 avg=139.5 max=152 (n=2048)
+libc.alloc ticks min=367 avg=368.3 max=3126 (n=2048)
+libc.free ticks min=336 avg=366.7 max=943 (n=2048)
+
+[5/15] Running test: Alloc5Release3_16b
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=164 avg=4229.5 max=27197 (n=5114)
+emalloc.free ticks min=207 avg=2180.9 max=122879 (n=5114)
+freertos.alloc ticks min=157 avg=171.1 max=930 (n=5114)
+freertos.free ticks min=127 avg=478.7 max=1958 (n=5114)
+libc.alloc ticks min=320 avg=357.3 max=3229 (n=5114)
+libc.free ticks min=311 avg=345.1 max=1093 (n=5114)
+
+[6/15] Running test: Alloc5Release3_64b
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=164 avg=3266.2 max=20546 (n=3349)
+emalloc.free ticks min=207 avg=3446.5 max=88766 (n=3348)
+freertos.alloc ticks min=157 avg=239.9 max=726 (n=3024)
+freertos.free ticks min=127 avg=362.2 max=1453 (n=3023)
+libc.alloc ticks min=320 avg=375.5 max=3970 (n=5114)
+libc.free ticks min=311 avg=347.1 max=1069 (n=5114)
+
+[7/15] Running test: Alloc5Release3_128b
+libc heap: free chunk=1, free fastbin=0, free=101608 alloc=4
+emalloc.alloc ticks min=164 avg=2250.6 max=13692 (n=1917)
+emalloc.free ticks min=207 avg=3226.6 max=66537 (n=1916)
+freertos.alloc ticks min=157 avg=367.2 max=819 (n=1884)
+freertos.free ticks min=127 avg=323.0 max=1075 (n=1883)
+libc.alloc ticks min=320 avg=387.1 max=3660 (n=4514)
+libc.free ticks min=311 avg=349.5 max=1244 (n=4513)
+
+[8/15] Running test: Alloc5Release3_256b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=162 avg=1534.4 max=55849 (n=1000)
+emalloc.free ticks min=173 avg=2600.3 max=43499 (n=999)
+freertos.alloc ticks min=157 avg=390.9 max=930 (n=1085)
+freertos.free ticks min=127 avg=288.3 max=798 (n=1084)
+libc.alloc ticks min=320 avg=410.9 max=4244 (n=2620)
+libc.free ticks min=311 avg=352.5 max=942 (n=2619)
+
+[9/15] Running test: Alloc5Release3_512b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=177 avg=1055.7 max=30028 (n=538)
+emalloc.free ticks min=234 avg=1865.5 max=26688 (n=537)
+freertos.alloc ticks min=157 avg=362.1 max=820 (n=518)
+freertos.free ticks min=127 avg=235.5 max=462 (n=517)
+libc.alloc ticks min=320 avg=436.2 max=4436 (n=1314)
+libc.free ticks min=311 avg=357.8 max=1094 (n=1313)
+
+[10/15] Running test: Alloc6Release2_16b
+libc heap: free chunk=1, free fastbin=0, free=11496 alloc=4
+emalloc.alloc ticks min=164 avg=2144.5 max=23154 (n=3070)
+emalloc.free ticks min=207 avg=1450.0 max=113272 (n=3070)
+freertos.alloc ticks min=157 avg=171.3 max=726 (n=3070)
+freertos.free ticks min=127 avg=488.4 max=1117 (n=3070)
+libc.alloc ticks min=320 avg=362.2 max=4365 (n=3070)
+libc.free ticks min=311 avg=353.0 max=892 (n=3070)
+
+[11/15] Running test: Alloc6Release2_32b
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=164 avg=2155.6 max=24433 (n=3070)
+emalloc.free ticks min=207 avg=1914.4 max=141905 (n=3070)
+freertos.alloc ticks min=157 avg=172.7 max=471 (n=2661)
+freertos.free ticks min=127 avg=462.3 max=1141 (n=2660)
+libc.alloc ticks min=320 avg=376.4 max=3869 (n=3070)
+libc.free ticks min=311 avg=353.1 max=992 (n=3070)
+
+[12/15] Running test: Alloc6Release2_64b
+libc heap: free chunk=1, free fastbin=0, free=64744 alloc=4
+emalloc.alloc ticks min=164 avg=1387.3 max=20118 (n=2014)
+emalloc.free ticks min=207 avg=1884.0 max=91679 (n=2013)
+freertos.alloc ticks min=157 avg=184.5 max=726 (n=1857)
+freertos.free ticks min=127 avg=391.5 max=979 (n=1856)
+libc.alloc ticks min=320 avg=383.4 max=3970 (n=3070)
+libc.free ticks min=311 avg=354.5 max=1145 (n=3070)
+
+[13/15] Running test: Alloc6Release2_128b
+libc heap: free chunk=1, free fastbin=0, free=97512 alloc=4
+emalloc.alloc ticks min=177 avg=1105.6 max=12636 (n=1206)
+emalloc.free ticks min=207 avg=1800.3 max=59550 (n=1205)
+freertos.alloc ticks min=157 avg=271.3 max=523 (n=1144)
+freertos.free ticks min=127 avg=334.9 max=853 (n=1143)
+libc.alloc ticks min=320 avg=393.4 max=3567 (n=2799)
+libc.free ticks min=311 avg=357.7 max=1146 (n=2798)
+
+[14/15] Running test: Alloc6Release2_256b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=177 avg=774.3 max=7667 (n=646)
+emalloc.free ticks min=207 avg=1561.8 max=42654 (n=645)
+freertos.alloc ticks min=157 avg=339.1 max=726 (n=629)
+freertos.free ticks min=127 avg=272.6 max=565 (n=628)
+libc.alloc ticks min=320 avg=409.7 max=3991 (n=1542)
+libc.free ticks min=311 avg=359.6 max=892 (n=1541)
+
+[15/15] Running test: Alloc6Release2_512b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=196 avg=560.6 max=5208 (n=346)
+emalloc.free ticks min=207 avg=1109.7 max=19647 (n=345)
+freertos.alloc ticks min=157 avg=269.9 max=623 (n=359)
+freertos.free ticks min=127 avg=209.9 max=385 (n=358)
+libc.alloc ticks min=320 avg=427.2 max=3097 (n=824)
+libc.free ticks min=311 avg=365.3 max=994 (n=823)
+
+
+All tests completed: 15/15
+About to restart testing 10
+About to restart testing 9
+About to restart testing 8
+About to restart testing 7
+About to restart testing 6
+About to restart testing 5
+About to restart testing 4
+About to restart testing 3
+About to restart testing 2
+About to restart testing 1
+empty number of cycles:12
+f_clk_sys:125000 khz
+Running 15 tests...
+[1/15] Running test: AllocAll16FreeOdd
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=213 avg=213.5 max=793 (n=2048)
+emalloc.free ticks min=234 avg=249.3 max=888 (n=2048)
+freertos.alloc ticks min=165 avg=165.2 max=620 (n=2048)
+freertos.free ticks min=127 avg=1674.0 max=6282 (n=2048)
+libc.alloc ticks min=367 avg=369.7 max=3514 (n=2048)
+libc.free ticks min=322 avg=366.9 max=941 (n=2048)
+
+[2/15] Running test: AllocAll16FreeEven
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=213 avg=213.4 max=995 (n=2048)
+emalloc.free ticks min=234 avg=249.3 max=861 (n=2048)
+freertos.alloc ticks min=165 avg=165.2 max=518 (n=2048)
+freertos.free ticks min=127 avg=1674.0 max=6265 (n=2048)
+libc.alloc ticks min=367 avg=368.4 max=3177 (n=2048)
+libc.free ticks min=336 avg=366.8 max=994 (n=2048)
+
+[3/15] Running test: AllocAll16FreeOddReversed
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=213 avg=213.1 max=491 (n=2048)
+emalloc.free ticks min=234 avg=249.3 max=918 (n=2048)
+freertos.alloc ticks min=165 avg=165.3 max=722 (n=2048)
+freertos.free ticks min=127 avg=139.5 max=152 (n=2048)
+libc.alloc ticks min=367 avg=368.4 max=3227 (n=2048)
+libc.free ticks min=322 avg=366.7 max=918 (n=2048)
+
+[4/15] Running test: AllocAll16FreeEvenReversed
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=213 avg=213.1 max=491 (n=2048)
+emalloc.free ticks min=207 avg=249.3 max=888 (n=2048)
+freertos.alloc ticks min=165 avg=165.4 max=921 (n=2048)
+freertos.free ticks min=127 avg=139.5 max=177 (n=2048)
+libc.alloc ticks min=367 avg=368.3 max=2974 (n=2048)
+libc.free ticks min=336 avg=366.8 max=1092 (n=2048)
+
+[5/15] Running test: Alloc5Release3_16b
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=162 avg=4241.7 max=26661 (n=5114)
+emalloc.free ticks min=207 avg=2122.5 max=104402 (n=5114)
+freertos.alloc ticks min=157 avg=172.3 max=771 (n=5114)
+freertos.free ticks min=127 avg=477.0 max=1975 (n=5114)
+libc.alloc ticks min=320 avg=358.2 max=3467 (n=5114)
+libc.free ticks min=311 avg=345.2 max=942 (n=5114)
+
+[6/15] Running test: Alloc5Release3_64b
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=164 avg=3283.1 max=86945 (n=3332)
+emalloc.free ticks min=207 avg=3416.4 max=90812 (n=3331)
+freertos.alloc ticks min=157 avg=267.9 max=673 (n=2950)
+freertos.free ticks min=127 avg=365.4 max=1477 (n=2949)
+libc.alloc ticks min=320 avg=376.0 max=4659 (n=5114)
+libc.free ticks min=311 avg=346.6 max=944 (n=5114)
+
+[7/15] Running test: Alloc5Release3_128b
+libc heap: free chunk=1, free fastbin=0, free=101608 alloc=4
+emalloc.alloc ticks min=164 avg=2471.9 max=13932 (n=1992)
+emalloc.free ticks min=207 avg=3337.0 max=66214 (n=1991)
+freertos.alloc ticks min=157 avg=379.2 max=896 (n=1818)
+freertos.free ticks min=127 avg=333.2 max=1165 (n=1817)
+libc.alloc ticks min=320 avg=388.4 max=3977 (n=4597)
+libc.free ticks min=311 avg=349.8 max=1193 (n=4596)
+
+[8/15] Running test: Alloc5Release3_256b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=164 avg=1500.1 max=9402 (n=1050)
+emalloc.free ticks min=207 avg=2696.1 max=43589 (n=1049)
+freertos.alloc ticks min=157 avg=369.9 max=819 (n=1093)
+freertos.free ticks min=127 avg=278.5 max=780 (n=1092)
+libc.alloc ticks min=320 avg=407.1 max=3866 (n=2560)
+libc.free ticks min=311 avg=352.5 max=1042 (n=2559)
+
+[9/15] Running test: Alloc5Release3_512b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=164 avg=939.5 max=14158 (n=502)
+emalloc.free ticks min=207 avg=1853.4 max=23138 (n=501)
+freertos.alloc ticks min=157 avg=372.2 max=744 (n=557)
+freertos.free ticks min=127 avg=243.6 max=487 (n=556)
+libc.alloc ticks min=320 avg=438.2 max=3604 (n=1335)
+libc.free ticks min=311 avg=358.8 max=967 (n=1334)
+
+[10/15] Running test: Alloc6Release2_16b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=164 avg=2115.3 max=26042 (n=3070)
+emalloc.free ticks min=207 avg=1688.7 max=161296 (n=3070)
+freertos.alloc ticks min=157 avg=172.1 max=474 (n=3070)
+freertos.free ticks min=127 avg=480.5 max=1188 (n=3070)
+libc.alloc ticks min=320 avg=363.0 max=3964 (n=3070)
+libc.free ticks min=311 avg=352.5 max=993 (n=3070)
+
+[11/15] Running test: Alloc6Release2_32b
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=164 avg=2266.2 max=27362 (n=3070)
+emalloc.free ticks min=207 avg=1778.1 max=143426 (n=3070)
+freertos.alloc ticks min=157 avg=176.2 max=625 (n=2691)
+freertos.free ticks min=127 avg=478.5 max=1249 (n=2690)
+libc.alloc ticks min=320 avg=374.7 max=3906 (n=3070)
+libc.free ticks min=311 avg=352.4 max=792 (n=3070)
+
+[12/15] Running test: Alloc6Release2_64b
+libc heap: free chunk=1, free fastbin=0, free=68840 alloc=4
+emalloc.alloc ticks min=164 avg=1740.3 max=18922 (n=2033)
+emalloc.free ticks min=207 avg=2033.0 max=77335 (n=2032)
+freertos.alloc ticks min=157 avg=182.5 max=725 (n=1893)
+freertos.free ticks min=127 avg=410.3 max=1021 (n=1892)
+libc.alloc ticks min=320 avg=383.6 max=3827 (n=3070)
+libc.free ticks min=311 avg=354.5 max=791 (n=3070)
+
+[13/15] Running test: Alloc6Release2_128b
+libc heap: free chunk=1, free fastbin=0, free=97512 alloc=4
+emalloc.alloc ticks min=177 avg=1141.1 max=68552 (n=1207)
+emalloc.free ticks min=207 avg=2013.7 max=78840 (n=1206)
+freertos.alloc ticks min=157 avg=253.7 max=520 (n=1169)
+freertos.free ticks min=127 avg=320.7 max=739 (n=1168)
+libc.alloc ticks min=320 avg=391.7 max=4107 (n=2803)
+libc.free ticks min=311 avg=357.0 max=1144 (n=2802)
+
+[14/15] Running test: Alloc6Release2_256b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=190 avg=733.2 max=34466 (n=631)
+emalloc.free ticks min=207 avg=1547.0 max=49789 (n=630)
+freertos.alloc ticks min=157 avg=320.1 max=726 (n=640)
+freertos.free ticks min=127 avg=269.1 max=595 (n=639)
+libc.alloc ticks min=320 avg=409.3 max=4538 (n=1618)
+libc.free ticks min=311 avg=359.7 max=1195 (n=1617)
+
+[15/15] Running test: Alloc6Release2_512b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=190 avg=680.6 max=34103 (n=347)
+emalloc.free ticks min=207 avg=1162.5 max=26816 (n=346)
+freertos.alloc ticks min=162 avg=301.0 max=574 (n=343)
+freertos.free ticks min=127 avg=215.0 max=385 (n=342)
+libc.alloc ticks min=320 avg=427.9 max=3910 (n=859)
+libc.free ticks min=311 avg=364.5 max=1044 (n=858)
+
+
+All tests completed: 15/15
+About to restart testing 10
+About to restart testing 9
+About to restart testing 8
+About to restart testing 7
+About to restart testing 6
+About to restart testing 5
+About to restart testing 4
+About to restart testing 3
+About to restart testing 2
+About to restart testing 1
+empty number of cycles:12
+f_clk_sys:125000 khz
+Running 15 tests...
+[1/15] Running test: AllocAll16FreeOdd
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=213 avg=213.6 max=945 (n=2048)
+emalloc.free ticks min=234 avg=249.5 max=1188 (n=2048)
+freertos.alloc ticks min=165 avg=165.2 max=620 (n=2048)
+freertos.free ticks min=127 avg=1674.0 max=6282 (n=2048)
+libc.alloc ticks min=367 avg=369.8 max=3963 (n=2048)
+libc.free ticks min=322 avg=366.9 max=1195 (n=2048)
+
+[2/15] Running test: AllocAll16FreeEven
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=213 avg=213.3 max=793 (n=2048)
+emalloc.free ticks min=234 avg=249.3 max=861 (n=2048)
+freertos.alloc ticks min=165 avg=165.2 max=568 (n=2048)
+freertos.free ticks min=127 avg=1674.0 max=6265 (n=2048)
+libc.alloc ticks min=367 avg=368.4 max=3229 (n=2048)
+libc.free ticks min=336 avg=366.8 max=841 (n=2048)
+
+[3/15] Running test: AllocAll16FreeOddReversed
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=213 avg=213.2 max=693 (n=2048)
+emalloc.free ticks min=234 avg=249.3 max=918 (n=2048)
+freertos.alloc ticks min=165 avg=165.1 max=468 (n=2048)
+freertos.free ticks min=127 avg=139.5 max=152 (n=2048)
+libc.alloc ticks min=367 avg=368.4 max=3326 (n=2048)
+libc.free ticks min=322 avg=366.7 max=1068 (n=2048)
+
+[4/15] Running test: AllocAll16FreeEvenReversed
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=213 avg=213.1 max=491 (n=2048)
+emalloc.free ticks min=207 avg=249.3 max=888 (n=2048)
+freertos.alloc ticks min=165 avg=165.2 max=617 (n=2048)
+freertos.free ticks min=127 avg=139.5 max=152 (n=2048)
+libc.alloc ticks min=367 avg=368.3 max=3026 (n=2048)
+libc.free ticks min=336 avg=366.9 max=1041 (n=2048)
+
+[5/15] Running test: Alloc5Release3_16b
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=162 avg=4173.5 max=27510 (n=5114)
+emalloc.free ticks min=207 avg=2212.5 max=125723 (n=5114)
+freertos.alloc ticks min=157 avg=170.8 max=978 (n=5114)
+freertos.free ticks min=127 avg=469.2 max=1867 (n=5114)
+libc.alloc ticks min=320 avg=357.7 max=3430 (n=5114)
+libc.free ticks min=311 avg=345.1 max=991 (n=5114)
+
+[6/15] Running test: Alloc5Release3_64b
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=162 avg=3254.8 max=20979 (n=3295)
+emalloc.free ticks min=207 avg=3890.8 max=88716 (n=3294)
+freertos.alloc ticks min=157 avg=271.6 max=588 (n=3035)
+freertos.free ticks min=127 avg=376.7 max=1501 (n=3034)
+libc.alloc ticks min=320 avg=376.3 max=3565 (n=5114)
+libc.free ticks min=311 avg=346.9 max=942 (n=5114)
+
+[7/15] Running test: Alloc5Release3_128b
+libc heap: free chunk=1, free fastbin=0, free=101608 alloc=4
+emalloc.alloc ticks min=175 avg=2114.9 max=13771 (n=1909)
+emalloc.free ticks min=207 avg=2925.0 max=60008 (n=1908)
+freertos.alloc ticks min=157 avg=334.5 max=742 (n=1900)
+freertos.free ticks min=127 avg=316.9 max=997 (n=1899)
+libc.alloc ticks min=320 avg=387.5 max=3844 (n=4715)
+libc.free ticks min=311 avg=350.0 max=1193 (n=4714)
+
+[8/15] Running test: Alloc5Release3_256b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=164 avg=1619.9 max=54326 (n=1060)
+emalloc.free ticks min=207 avg=2541.4 max=45868 (n=1059)
+freertos.alloc ticks min=157 avg=361.4 max=886 (n=1019)
+freertos.free ticks min=127 avg=266.8 max=727 (n=1018)
+libc.alloc ticks min=320 avg=410.4 max=4108 (n=2575)
+libc.free ticks min=311 avg=352.6 max=942 (n=2574)
+
+[9/15] Running test: Alloc5Release3_512b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=164 avg=1092.6 max=21515 (n=562)
+emalloc.free ticks min=207 avg=1753.5 max=24373 (n=561)
+freertos.alloc ticks min=157 avg=340.9 max=777 (n=530)
+freertos.free ticks min=127 avg=229.0 max=493 (n=529)
+libc.alloc ticks min=320 avg=435.1 max=3933 (n=1407)
+libc.free ticks min=311 avg=357.2 max=1119 (n=1406)
+
+[10/15] Running test: Alloc6Release2_16b
+libc heap: free chunk=1, free fastbin=0, free=7400 alloc=4
+emalloc.alloc ticks min=164 avg=2179.1 max=25679 (n=3070)
+emalloc.free ticks min=207 avg=1342.9 max=125393 (n=3070)
+freertos.alloc ticks min=157 avg=171.4 max=675 (n=3070)
+freertos.free ticks min=127 avg=479.1 max=1165 (n=3070)
+libc.alloc ticks min=320 avg=362.6 max=4320 (n=3070)
+libc.free ticks min=336 avg=352.9 max=1296 (n=3070)
+
+[11/15] Running test: Alloc6Release2_32b
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=164 avg=2166.8 max=25705 (n=3070)
+emalloc.free ticks min=207 avg=1866.6 max=144895 (n=3070)
+freertos.alloc ticks min=157 avg=173.4 max=623 (n=2712)
+freertos.free ticks min=127 avg=476.1 max=1195 (n=2711)
+libc.alloc ticks min=320 avg=375.6 max=4059 (n=3070)
+libc.free ticks min=311 avg=353.1 max=967 (n=3070)
+
+[12/15] Running test: Alloc6Release2_64b
+libc heap: free chunk=1, free fastbin=0, free=68840 alloc=4
+emalloc.alloc ticks min=177 avg=1509.9 max=19589 (n=2014)
+emalloc.free ticks min=207 avg=2133.5 max=83073 (n=2013)
+freertos.alloc ticks min=157 avg=192.5 max=575 (n=1853)
+freertos.free ticks min=127 avg=384.0 max=967 (n=1852)
+libc.alloc ticks min=320 avg=382.9 max=3596 (n=3070)
+libc.free ticks min=311 avg=354.7 max=965 (n=3070)
+
+[13/15] Running test: Alloc6Release2_128b
+libc heap: free chunk=1, free fastbin=0, free=101608 alloc=4
+emalloc.alloc ticks min=177 avg=1125.2 max=89504 (n=1158)
+emalloc.free ticks min=207 avg=1754.6 max=72449 (n=1157)
+freertos.alloc ticks min=157 avg=248.0 max=676 (n=1191)
+freertos.free ticks min=127 avg=325.2 max=763 (n=1190)
+libc.alloc ticks min=320 avg=393.6 max=4287 (n=2806)
+libc.free ticks min=311 avg=357.5 max=1043 (n=2805)
+
+[14/15] Running test: Alloc6Release2_256b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=177 avg=696.5 max=8178 (n=617)
+emalloc.free ticks min=207 avg=1369.2 max=38160 (n=616)
+freertos.alloc ticks min=157 avg=313.4 max=726 (n=664)
+freertos.free ticks min=127 avg=263.8 max=546 (n=663)
+libc.alloc ticks min=320 avg=406.1 max=3429 (n=1599)
+libc.free ticks min=311 avg=359.2 max=943 (n=1598)
+
+[15/15] Running test: Alloc6Release2_512b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=177 avg=489.6 max=4526 (n=322)
+emalloc.free ticks min=234 avg=968.4 max=24991 (n=321)
+freertos.alloc ticks min=157 avg=282.5 max=725 (n=346)
+freertos.free ticks min=127 avg=211.5 max=367 (n=345)
+libc.alloc ticks min=320 avg=429.4 max=3752 (n=822)
+libc.free ticks min=322 avg=365.1 max=1193 (n=821)
+
+
+All tests completed: 15/15
+About to restart testing 10
+About to restart testing 9
+About to restart testing 8
+About to restart testing 7
+About to restart testing 6
+About to restart testing 5
+About to restart testing 4
+About to restart testing 3
+About to restart testing 2
+About to restart testing 1
+empty number of cycles:12
+f_clk_sys:125000 khz
+Running 15 tests...
+[1/15] Running test: AllocAll16FreeOdd
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=213 avg=213.4 max=793 (n=2048)
+emalloc.free ticks min=234 avg=249.3 max=888 (n=2048)
+freertos.alloc ticks min=165 avg=165.2 max=518 (n=2048)
+freertos.free ticks min=127 avg=1674.0 max=6282 (n=2048)
+libc.alloc ticks min=367 avg=369.8 max=3615 (n=2048)
+libc.free ticks min=322 avg=366.8 max=1042 (n=2048)
+
+[2/15] Running test: AllocAll16FreeEven
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=213 avg=213.3 max=895 (n=2048)
+emalloc.free ticks min=234 avg=249.3 max=860 (n=2048)
+freertos.alloc ticks min=165 avg=165.1 max=466 (n=2048)
+freertos.free ticks min=127 avg=1674.0 max=6265 (n=2048)
+libc.alloc ticks min=367 avg=368.4 max=3228 (n=2048)
+libc.free ticks min=336 avg=366.6 max=1194 (n=2048)
+
+[3/15] Running test: AllocAll16FreeOddReversed
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=213 avg=213.2 max=693 (n=2048)
+emalloc.free ticks min=234 avg=249.3 max=918 (n=2048)
+freertos.alloc ticks min=165 avg=165.3 max=722 (n=2048)
+freertos.free ticks min=127 avg=139.5 max=152 (n=2048)
+libc.alloc ticks min=367 avg=368.4 max=3176 (n=2048)
+libc.free ticks min=336 avg=366.8 max=816 (n=2048)
+
+[4/15] Running test: AllocAll16FreeEvenReversed
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=213 avg=213.2 max=591 (n=2048)
+emalloc.free ticks min=207 avg=249.3 max=888 (n=2048)
+freertos.alloc ticks min=165 avg=165.3 max=771 (n=2048)
+freertos.free ticks min=127 avg=139.5 max=152 (n=2048)
+libc.alloc ticks min=367 avg=368.3 max=2974 (n=2048)
+libc.free ticks min=336 avg=366.8 max=1144 (n=2048)
+
+[5/15] Running test: Alloc5Release3_16b
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=164 avg=4217.5 max=25545 (n=5114)
+emalloc.free ticks min=207 avg=2185.7 max=121577 (n=5114)
+freertos.alloc ticks min=157 avg=171.8 max=828 (n=5114)
+freertos.free ticks min=127 avg=471.4 max=1897 (n=5114)
+libc.alloc ticks min=320 avg=358.3 max=3380 (n=5114)
+libc.free ticks min=311 avg=344.9 max=1144 (n=5114)
+
+[6/15] Running test: Alloc5Release3_64b
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=164 avg=3058.0 max=66103 (n=3216)
+emalloc.free ticks min=207 avg=3410.2 max=94584 (n=3215)
+freertos.alloc ticks min=157 avg=251.9 max=533 (n=3033)
+freertos.free ticks min=127 avg=378.0 max=1603 (n=3032)
+libc.alloc ticks min=320 avg=377.2 max=4510 (n=5114)
+libc.free ticks min=311 avg=347.1 max=1093 (n=5114)
+
+[7/15] Running test: Alloc5Release3_128b
+libc heap: free chunk=1, free fastbin=0, free=101608 alloc=4
+emalloc.alloc ticks min=162 avg=3886.1 max=48894 (n=1969)
+emalloc.free ticks min=207 avg=3335.9 max=75916 (n=1968)
+freertos.alloc ticks min=157 avg=372.7 max=831 (n=1833)
+freertos.free ticks min=127 avg=321.7 max=1104 (n=1832)
+libc.alloc ticks min=320 avg=387.1 max=4046 (n=4612)
+libc.free ticks min=311 avg=349.6 max=1296 (n=4611)
+
+[8/15] Running test: Alloc5Release3_256b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=164 avg=1603.2 max=23088 (n=1042)
+emalloc.free ticks min=207 avg=2698.2 max=51265 (n=1041)
+freertos.alloc ticks min=157 avg=394.5 max=930 (n=1057)
+freertos.free ticks min=127 avg=273.7 max=739 (n=1056)
+libc.alloc ticks min=320 avg=406.8 max=4286 (n=2490)
+libc.free ticks min=311 avg=352.6 max=1096 (n=2489)
+
+[9/15] Running test: Alloc5Release3_512b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=164 avg=1009.5 max=5797 (n=535)
+emalloc.free ticks min=207 avg=1809.8 max=23064 (n=534)
+freertos.alloc ticks min=157 avg=361.8 max=726 (n=544)
+freertos.free ticks min=127 avg=235.0 max=457 (n=543)
+libc.alloc ticks min=320 avg=430.6 max=3593 (n=1355)
+libc.free ticks min=311 avg=356.9 max=1093 (n=1354)
+
+[10/15] Running test: Alloc6Release2_16b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=162 avg=2204.7 max=25247 (n=3070)
+emalloc.free ticks min=207 avg=1394.0 max=98713 (n=3070)
+freertos.alloc ticks min=157 avg=171.1 max=674 (n=3070)
+freertos.free ticks min=127 avg=455.6 max=1027 (n=3070)
+libc.alloc ticks min=320 avg=361.5 max=3867 (n=3070)
+libc.free ticks min=322 avg=352.3 max=1018 (n=3070)
+
+[11/15] Running test: Alloc6Release2_32b
+libc heap: free chunk=1, free fastbin=0, free=48360 alloc=4
+emalloc.alloc ticks min=175 avg=2133.9 max=22850 (n=3070)
+emalloc.free ticks min=207 avg=1933.7 max=128348 (n=3070)
+freertos.alloc ticks min=157 avg=175.3 max=620 (n=2668)
+freertos.free ticks min=127 avg=455.2 max=1093 (n=2667)
+libc.alloc ticks min=320 avg=374.7 max=3806 (n=3070)
+libc.free ticks min=311 avg=353.1 max=968 (n=3070)
+
+[12/15] Running test: Alloc6Release2_64b
+libc heap: free chunk=1, free fastbin=0, free=68840 alloc=4
+emalloc.alloc ticks min=177 avg=1593.9 max=18816 (n=1995)
+emalloc.free ticks min=207 avg=1976.1 max=89003 (n=1994)
+freertos.alloc ticks min=157 avg=187.6 max=569 (n=1842)
+freertos.free ticks min=127 avg=398.0 max=991 (n=1841)
+libc.alloc ticks min=320 avg=382.9 max=3610 (n=3070)
+libc.free ticks min=311 avg=354.1 max=1016 (n=3070)
+
+[13/15] Running test: Alloc6Release2_128b
+libc heap: free chunk=1, free fastbin=0, free=101608 alloc=4
+emalloc.alloc ticks min=177 avg=1134.3 max=13451 (n=1175)
+emalloc.free ticks min=207 avg=1995.6 max=81962 (n=1174)
+freertos.alloc ticks min=157 avg=239.3 max=619 (n=1161)
+freertos.free ticks min=127 avg=308.2 max=786 (n=1160)
+libc.alloc ticks min=320 avg=392.3 max=3528 (n=2807)
+libc.free ticks min=311 avg=357.6 max=1095 (n=2806)
+
+[14/15] Running test: Alloc6Release2_256b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=177 avg=713.4 max=8072 (n=634)
+emalloc.free ticks min=207 avg=1751.4 max=50311 (n=633)
+freertos.alloc ticks min=157 avg=330.0 max=676 (n=650)
+freertos.free ticks min=127 avg=276.6 max=589 (n=649)
+libc.alloc ticks min=320 avg=410.1 max=3864 (n=1566)
+libc.free ticks min=336 avg=360.7 max=993 (n=1565)
+
+[15/15] Running test: Alloc6Release2_512b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=177 avg=522.7 max=4799 (n=305)
+emalloc.free ticks min=207 avg=1045.4 max=15711 (n=304)
+freertos.alloc ticks min=157 avg=307.7 max=725 (n=340)
+freertos.free ticks min=127 avg=219.1 max=379 (n=339)
+libc.alloc ticks min=320 avg=427.8 max=3167 (n=819)
+libc.free ticks min=322 avg=365.0 max=915 (n=818)
+
+
+All tests completed: 15/15
+About to restart testing 10
+About to restart testing 9
+About to restart testing 8
+About to restart testing 7
+About to restart testing 6
+About to restart testing 5
+About to restart testing 4
+About to restart testing 3
+About to restart testing 2
+About to restart testing 1
+empty number of cycles:12
+f_clk_sys:125000 khz
+Running 15 tests...
+[1/15] Running test: AllocAll16FreeOdd
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=213 avg=213.4 max=691 (n=2048)
+emalloc.free ticks min=234 avg=249.3 max=888 (n=2048)
+freertos.alloc ticks min=165 avg=165.1 max=418 (n=2048)
+freertos.free ticks min=127 avg=1674.0 max=6282 (n=2048)
+libc.alloc ticks min=367 avg=369.8 max=3764 (n=2048)
+libc.free ticks min=336 avg=366.7 max=1094 (n=2048)
+
+[2/15] Running test: AllocAll16FreeEven
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=213 avg=213.4 max=995 (n=2048)
+emalloc.free ticks min=234 avg=249.3 max=861 (n=2048)
+freertos.alloc ticks min=165 avg=165.2 max=620 (n=2048)
+freertos.free ticks min=127 avg=1674.0 max=6265 (n=2048)
+libc.alloc ticks min=367 avg=368.3 max=3127 (n=2048)
+libc.free ticks min=336 avg=366.8 max=1093 (n=2048)
+
+[3/15] Running test: AllocAll16FreeOddReversed
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=213 avg=213.2 max=691 (n=2048)
+emalloc.free ticks min=234 avg=249.3 max=918 (n=2048)
+freertos.alloc ticks min=165 avg=165.2 max=620 (n=2048)
+freertos.free ticks min=127 avg=139.5 max=152 (n=2048)
+libc.alloc ticks min=367 avg=368.3 max=3126 (n=2048)
+libc.free ticks min=322 avg=366.7 max=741 (n=2048)
+
+[4/15] Running test: AllocAll16FreeEvenReversed
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=213 avg=213.2 max=691 (n=2048)
+emalloc.free ticks min=207 avg=249.3 max=888 (n=2048)
+freertos.alloc ticks min=165 avg=165.2 max=669 (n=2048)
+freertos.free ticks min=127 avg=139.5 max=152 (n=2048)
+libc.alloc ticks min=367 avg=368.3 max=2976 (n=2048)
+libc.free ticks min=336 avg=366.7 max=941 (n=2048)
+
+[5/15] Running test: Alloc5Release3_16b
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=162 avg=4020.7 max=27468 (n=5114)
+emalloc.free ticks min=207 avg=1970.9 max=108648 (n=5114)
+freertos.alloc ticks min=157 avg=171.9 max=928 (n=5114)
+freertos.free ticks min=127 avg=477.6 max=1915 (n=5114)
+libc.alloc ticks min=320 avg=357.7 max=3480 (n=5114)
+libc.free ticks min=311 avg=344.9 max=867 (n=5114)
+
+[6/15] Running test: Alloc5Release3_64b
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=164 avg=3288.8 max=21447 (n=3342)
+emalloc.free ticks min=207 avg=3586.9 max=86808 (n=3341)
+freertos.alloc ticks min=157 avg=270.2 max=777 (n=3010)
+freertos.free ticks min=127 avg=379.9 max=1452 (n=3009)
+libc.alloc ticks min=320 avg=374.6 max=3685 (n=5114)
+libc.free ticks min=311 avg=346.8 max=768 (n=5114)
+
+[7/15] Running test: Alloc5Release3_128b
+libc heap: free chunk=1, free fastbin=0, free=101608 alloc=4
+emalloc.alloc ticks min=175 avg=2238.5 max=74143 (n=1955)
+emalloc.free ticks min=207 avg=3036.3 max=63678 (n=1954)
+freertos.alloc ticks min=157 avg=354.4 max=753 (n=1865)
+freertos.free ticks min=127 avg=316.7 max=1105 (n=1864)
+libc.alloc ticks min=320 avg=389.0 max=4281 (n=4618)
+libc.free ticks min=311 avg=349.8 max=1194 (n=4617)
+
+[8/15] Running test: Alloc5Release3_256b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=164 avg=1579.5 max=9039 (n=1078)
+emalloc.free ticks min=207 avg=2770.0 max=37787 (n=1077)
+freertos.alloc ticks min=157 avg=362.8 max=853 (n=1013)
+freertos.free ticks min=127 avg=268.9 max=678 (n=1012)
+libc.alloc ticks min=320 avg=407.9 max=3836 (n=2565)
+libc.free ticks min=311 avg=352.4 max=1143 (n=2564)
+
+[9/15] Running test: Alloc5Release3_512b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=164 avg=911.0 max=27163 (n=510)
+emalloc.free ticks min=207 avg=1672.9 max=21887 (n=509)
+freertos.alloc ticks min=157 avg=339.6 max=755 (n=524)
+freertos.free ticks min=127 avg=237.1 max=504 (n=523)
+libc.alloc ticks min=320 avg=431.3 max=4394 (n=1424)
+libc.free ticks min=311 avg=356.8 max=1194 (n=1423)
+
+[10/15] Running test: Alloc6Release2_16b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=164 avg=2234.1 max=26559 (n=3070)
+emalloc.free ticks min=207 avg=1643.0 max=136719 (n=3070)
+freertos.alloc ticks min=157 avg=171.5 max=624 (n=3070)
+freertos.free ticks min=127 avg=462.6 max=1075 (n=3070)
+libc.alloc ticks min=320 avg=362.3 max=4223 (n=3070)
+libc.free ticks min=311 avg=352.2 max=992 (n=3070)
+
+[11/15] Running test: Alloc6Release2_32b
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=164 avg=2125.3 max=24227 (n=3070)
+emalloc.free ticks min=207 avg=1846.0 max=169959 (n=3070)
+freertos.alloc ticks min=157 avg=174.1 max=725 (n=2668)
+freertos.free ticks min=127 avg=463.0 max=1135 (n=2667)
+libc.alloc ticks min=320 avg=376.5 max=4235 (n=3070)
+libc.free ticks min=311 avg=353.1 max=994 (n=3070)
+
+[12/15] Running test: Alloc6Release2_64b
+libc heap: free chunk=1, free fastbin=0, free=68840 alloc=4
+emalloc.alloc ticks min=177 avg=1626.6 max=19518 (n=2024)
+emalloc.free ticks min=207 avg=2109.7 max=117655 (n=2023)
+freertos.alloc ticks min=157 avg=190.4 max=472 (n=1852)
+freertos.free ticks min=127 avg=385.8 max=925 (n=1851)
+libc.alloc ticks min=320 avg=383.3 max=4033 (n=3070)
+libc.free ticks min=311 avg=354.6 max=917 (n=3070)
+
+[13/15] Running test: Alloc6Release2_128b
+libc heap: free chunk=1, free fastbin=0, free=101608 alloc=4
+emalloc.alloc ticks min=162 avg=1188.0 max=87817 (n=1199)
+emalloc.free ticks min=207 avg=1796.2 max=70760 (n=1198)
+freertos.alloc ticks min=157 avg=244.2 max=573 (n=1139)
+freertos.free ticks min=127 avg=317.8 max=793 (n=1138)
+libc.alloc ticks min=320 avg=393.2 max=4072 (n=2830)
+libc.free ticks min=311 avg=357.9 max=1042 (n=2829)
+
+[14/15] Running test: Alloc6Release2_256b
+libc heap: free chunk=1, free fastbin=0, free=7400 alloc=4
+emalloc.alloc ticks min=164 avg=965.5 max=8280 (n=678)
+emalloc.free ticks min=207 avg=1584.4 max=38810 (n=677)
+freertos.alloc ticks min=157 avg=316.6 max=623 (n=640)
+freertos.free ticks min=127 avg=255.9 max=553 (n=639)
+libc.alloc ticks min=320 avg=404.4 max=4137 (n=1562)
+libc.free ticks min=311 avg=360.8 max=1043 (n=1561)
+
+[15/15] Running test: Alloc6Release2_512b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=190 avg=676.3 max=4856 (n=365)
+emalloc.free ticks min=207 avg=1228.6 max=22385 (n=364)
+freertos.alloc ticks min=157 avg=303.0 max=620 (n=328)
+freertos.free ticks min=127 avg=217.6 max=421 (n=327)
+libc.alloc ticks min=320 avg=428.3 max=3529 (n=815)
+libc.free ticks min=327 avg=365.0 max=943 (n=814)
+
+
+All tests completed: 15/15
+About to restart testing 10
+About to restart testing 9
+About to restart testing 8
+About to restart testing 7
+About to restart testing 6
+About to restart testing 5
+About to restart testing 4
+About to restart testing 3
+About to restart testing 2
+About to restart testing 1
+empty number of cycles:12
+f_clk_sys:125000 khz
+Running 15 tests...
+[1/15] Running test: AllocAll16FreeOdd
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=213 avg=213.3 max=793 (n=2048)
+emalloc.free ticks min=234 avg=249.3 max=888 (n=2048)
+freertos.alloc ticks min=165 avg=165.1 max=466 (n=2048)
+freertos.free ticks min=127 avg=1674.0 max=6282 (n=2048)
+libc.alloc ticks min=367 avg=369.7 max=3665 (n=2048)
+libc.free ticks min=322 avg=366.9 max=1145 (n=2048)
+
+[2/15] Running test: AllocAll16FreeEven
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=213 avg=213.4 max=995 (n=2048)
+emalloc.free ticks min=234 avg=249.3 max=860 (n=2048)
+freertos.alloc ticks min=165 avg=165.1 max=418 (n=2048)
+freertos.free ticks min=127 avg=1674.0 max=6265 (n=2048)
+libc.alloc ticks min=367 avg=368.4 max=3226 (n=2048)
+libc.free ticks min=336 avg=366.8 max=993 (n=2048)
+
+[3/15] Running test: AllocAll16FreeOddReversed
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=213 avg=213.1 max=491 (n=2048)
+emalloc.free ticks min=234 avg=249.3 max=918 (n=2048)
+freertos.alloc ticks min=165 avg=165.3 max=722 (n=2048)
+freertos.free ticks min=127 avg=139.5 max=152 (n=2048)
+libc.alloc ticks min=367 avg=368.3 max=3126 (n=2048)
+libc.free ticks min=336 avg=366.8 max=816 (n=2048)
+
+[4/15] Running test: AllocAll16FreeEvenReversed
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=213 avg=213.1 max=491 (n=2048)
+emalloc.free ticks min=207 avg=249.3 max=888 (n=2048)
+freertos.alloc ticks min=165 avg=165.3 max=821 (n=2048)
+freertos.free ticks min=127 avg=139.5 max=152 (n=2048)
+libc.alloc ticks min=367 avg=368.2 max=2876 (n=2048)
+libc.free ticks min=336 avg=366.7 max=941 (n=2048)
+
+[5/15] Running test: Alloc5Release3_16b
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=162 avg=4318.1 max=27862 (n=5114)
+emalloc.free ticks min=207 avg=2223.1 max=122037 (n=5114)
+freertos.alloc ticks min=157 avg=171.3 max=1183 (n=5114)
+freertos.free ticks min=127 avg=464.6 max=1902 (n=5114)
+libc.alloc ticks min=320 avg=357.8 max=3581 (n=5114)
+libc.free ticks min=311 avg=345.2 max=1093 (n=5114)
+
+[6/15] Running test: Alloc5Release3_64b
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=162 avg=3263.7 max=104002 (n=3282)
+emalloc.free ticks min=207 avg=3576.1 max=98289 (n=3281)
+freertos.alloc ticks min=157 avg=271.9 max=929 (n=3002)
+freertos.free ticks min=127 avg=369.7 max=1507 (n=3001)
+libc.alloc ticks min=320 avg=375.2 max=4518 (n=5114)
+libc.free ticks min=311 avg=347.1 max=891 (n=5114)
+
+[7/15] Running test: Alloc5Release3_128b
+libc heap: free chunk=1, free fastbin=0, free=101608 alloc=4
+emalloc.alloc ticks min=162 avg=2304.0 max=51360 (n=1942)
+emalloc.free ticks min=207 avg=3365.0 max=67788 (n=1941)
+freertos.alloc ticks min=157 avg=356.0 max=778 (n=1784)
+freertos.free ticks min=127 avg=315.7 max=1003 (n=1783)
+libc.alloc ticks min=320 avg=385.7 max=4331 (n=4610)
+libc.free ticks min=311 avg=349.2 max=1193 (n=4609)
+
+[8/15] Running test: Alloc5Release3_256b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=162 avg=1631.6 max=9593 (n=1050)
+emalloc.free ticks min=207 avg=2405.3 max=51052 (n=1049)
+freertos.alloc ticks min=157 avg=391.4 max=995 (n=1045)
+freertos.free ticks min=127 avg=282.0 max=649 (n=1044)
+libc.alloc ticks min=320 avg=407.3 max=4265 (n=2511)
+libc.free ticks min=311 avg=352.6 max=1094 (n=2510)
+
+[9/15] Running test: Alloc5Release3_512b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=177 avg=1050.0 max=39223 (n=559)
+emalloc.free ticks min=207 avg=1840.5 max=20838 (n=558)
+freertos.alloc ticks min=157 avg=354.8 max=720 (n=512)
+freertos.free ticks min=127 avg=234.7 max=439 (n=511)
+libc.alloc ticks min=320 avg=436.0 max=3908 (n=1335)
+libc.free ticks min=311 avg=357.9 max=1193 (n=1334)
+
+[10/15] Running test: Alloc6Release2_16b
+libc heap: free chunk=1, free fastbin=0, free=15592 alloc=4
+emalloc.alloc ticks min=164 avg=2237.0 max=22041 (n=3070)
+emalloc.free ticks min=207 avg=1434.1 max=112649 (n=3070)
+freertos.alloc ticks min=157 avg=171.2 max=472 (n=3070)
+freertos.free ticks min=127 avg=477.4 max=1159 (n=3070)
+libc.alloc ticks min=320 avg=362.0 max=4054 (n=3070)
+libc.free ticks min=311 avg=352.4 max=1395 (n=3070)
+
+[11/15] Running test: Alloc6Release2_32b
+libc heap: free chunk=1, free fastbin=0, free=48360 alloc=4
+emalloc.alloc ticks min=164 avg=2261.3 max=25265 (n=3070)
+emalloc.free ticks min=207 avg=1539.0 max=153259 (n=3070)
+freertos.alloc ticks min=157 avg=172.9 max=473 (n=2713)
+freertos.free ticks min=127 avg=473.7 max=1189 (n=2712)
+libc.alloc ticks min=320 avg=375.9 max=3810 (n=3070)
+libc.free ticks min=311 avg=353.1 max=994 (n=3070)
+
+[12/15] Running test: Alloc6Release2_64b
+libc heap: free chunk=1, free fastbin=0, free=68840 alloc=4
+emalloc.alloc ticks min=164 avg=1319.0 max=20701 (n=1956)
+emalloc.free ticks min=207 avg=1816.3 max=89098 (n=1955)
+freertos.alloc ticks min=157 avg=183.8 max=575 (n=1882)
+freertos.free ticks min=127 avg=398.8 max=955 (n=1881)
+libc.alloc ticks min=320 avg=383.1 max=3725 (n=3070)
+libc.free ticks min=311 avg=354.4 max=926 (n=3070)
+
+[13/15] Running test: Alloc6Release2_128b
+libc heap: free chunk=1, free fastbin=0, free=101608 alloc=4
+emalloc.alloc ticks min=164 avg=1054.0 max=13019 (n=1138)
+emalloc.free ticks min=207 avg=1735.3 max=62311 (n=1137)
+freertos.alloc ticks min=157 avg=217.6 max=624 (n=1160)
+freertos.free ticks min=127 avg=313.3 max=769 (n=1159)
+libc.alloc ticks min=320 avg=392.8 max=3702 (n=2830)
+libc.free ticks min=311 avg=357.3 max=1042 (n=2829)
+
+[14/15] Running test: Alloc6Release2_256b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=177 avg=847.5 max=7622 (n=646)
+emalloc.free ticks min=207 avg=1636.9 max=31194 (n=645)
+freertos.alloc ticks min=157 avg=310.1 max=625 (n=637)
+freertos.free ticks min=127 avg=260.4 max=565 (n=636)
+libc.alloc ticks min=320 avg=408.3 max=3700 (n=1565)
+libc.free ticks min=336 avg=361.1 max=1093 (n=1564)
+
+[15/15] Running test: Alloc6Release2_512b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=164 avg=576.0 max=4567 (n=347)
+emalloc.free ticks min=207 avg=1045.1 max=24506 (n=346)
+freertos.alloc ticks min=157 avg=276.3 max=619 (n=356)
+freertos.free ticks min=127 avg=211.8 max=396 (n=355)
+libc.alloc ticks min=320 avg=429.2 max=3319 (n=828)
+libc.free ticks min=311 avg=364.8 max=1068 (n=827)
+
+
+All tests completed: 15/15
+About to restart testing 10
+About to restart testing 9
+About to restart testing 8
+About to restart testing 7
+About to restart testing 6
+About to restart testing 5
+About to restart testing 4
+About to restart testing 3
+About to restart testing 2
+About to restart testing 1
+empty number of cycles:12
+f_clk_sys:125000 khz
+Running 15 tests...
+[1/15] Running test: AllocAll16FreeOdd
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=213 avg=213.5 max=995 (n=2048)
+emalloc.free ticks min=234 avg=249.3 max=888 (n=2048)
+freertos.alloc ticks min=165 avg=165.1 max=416 (n=2048)
+freertos.free ticks min=127 avg=1674.0 max=6282 (n=2048)
+libc.alloc ticks min=367 avg=369.8 max=3816 (n=2048)
+libc.free ticks min=322 avg=366.8 max=1143 (n=2048)
+
+[2/15] Running test: AllocAll16FreeEven
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=213 avg=213.4 max=895 (n=2048)
+emalloc.free ticks min=234 avg=249.3 max=861 (n=2048)
+freertos.alloc ticks min=165 avg=165.2 max=620 (n=2048)
+freertos.free ticks min=127 avg=1674.0 max=6265 (n=2048)
+libc.alloc ticks min=367 avg=368.4 max=3228 (n=2048)
+libc.free ticks min=336 avg=366.8 max=1196 (n=2048)
+
+[3/15] Running test: AllocAll16FreeOddReversed
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=213 avg=213.3 max=691 (n=2048)
+emalloc.free ticks min=234 avg=249.3 max=917 (n=2048)
+freertos.alloc ticks min=165 avg=165.2 max=518 (n=2048)
+freertos.free ticks min=127 avg=139.5 max=152 (n=2048)
+libc.alloc ticks min=367 avg=368.3 max=3025 (n=2048)
+libc.free ticks min=322 avg=366.9 max=1017 (n=2048)
+
+[4/15] Running test: AllocAll16FreeEvenReversed
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=213 avg=213.2 max=491 (n=2048)
+emalloc.free ticks min=207 avg=249.3 max=888 (n=2048)
+freertos.alloc ticks min=165 avg=165.3 max=769 (n=2048)
+freertos.free ticks min=127 avg=139.5 max=152 (n=2048)
+libc.alloc ticks min=367 avg=368.3 max=2976 (n=2048)
+libc.free ticks min=336 avg=366.7 max=993 (n=2048)
+
+[5/15] Running test: Alloc5Release3_16b
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=164 avg=4155.6 max=24838 (n=5114)
+emalloc.free ticks min=207 avg=2055.2 max=109797 (n=5114)
+freertos.alloc ticks min=157 avg=170.5 max=1082 (n=5114)
+freertos.free ticks min=127 avg=489.2 max=2029 (n=5114)
+libc.alloc ticks min=320 avg=357.6 max=3367 (n=5114)
+libc.free ticks min=311 avg=345.0 max=991 (n=5114)
+
+[6/15] Running test: Alloc5Release3_64b
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=164 avg=3197.3 max=107938 (n=3285)
+emalloc.free ticks min=207 avg=3676.9 max=83855 (n=3284)
+freertos.alloc ticks min=157 avg=235.3 max=467 (n=3020)
+freertos.free ticks min=127 avg=365.6 max=1465 (n=3019)
+libc.alloc ticks min=320 avg=376.6 max=3971 (n=5114)
+libc.free ticks min=311 avg=347.0 max=1295 (n=5114)
+
+[7/15] Running test: Alloc5Release3_128b
+libc heap: free chunk=1, free fastbin=0, free=101608 alloc=4
+emalloc.alloc ticks min=162 avg=2331.4 max=14483 (n=1969)
+emalloc.free ticks min=207 avg=3289.7 max=60988 (n=1968)
+freertos.alloc ticks min=157 avg=374.1 max=887 (n=1895)
+freertos.free ticks min=127 avg=329.3 max=1087 (n=1894)
+libc.alloc ticks min=320 avg=387.1 max=4464 (n=4604)
+libc.free ticks min=311 avg=349.6 max=1194 (n=4603)
+
+[8/15] Running test: Alloc5Release3_256b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=164 avg=1623.6 max=8790 (n=1094)
+emalloc.free ticks min=207 avg=2468.5 max=45142 (n=1093)
+freertos.alloc ticks min=157 avg=378.9 max=853 (n=1040)
+freertos.free ticks min=127 avg=273.9 max=763 (n=1039)
+libc.alloc ticks min=320 avg=407.8 max=3996 (n=2650)
+libc.free ticks min=311 avg=352.0 max=942 (n=2649)
+
+[9/15] Running test: Alloc5Release3_512b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=177 avg=962.7 max=23397 (n=526)
+emalloc.free ticks min=207 avg=1849.5 max=22310 (n=525)
+freertos.alloc ticks min=157 avg=337.6 max=738 (n=548)
+freertos.free ticks min=127 avg=234.9 max=493 (n=547)
+libc.alloc ticks min=320 avg=437.8 max=3405 (n=1325)
+libc.free ticks min=311 avg=357.7 max=943 (n=1324)
+
+[10/15] Running test: Alloc6Release2_16b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=164 avg=1956.8 max=24313 (n=3070)
+emalloc.free ticks min=207 avg=1377.9 max=138034 (n=3070)
+freertos.alloc ticks min=157 avg=171.1 max=675 (n=3070)
+freertos.free ticks min=127 avg=488.1 max=1099 (n=3070)
+libc.alloc ticks min=320 avg=362.5 max=4319 (n=3070)
+libc.free ticks min=311 avg=352.3 max=1067 (n=3070)
+
+[11/15] Running test: Alloc6Release2_32b
+libc heap: free chunk=1, free fastbin=0, free=48360 alloc=4
+emalloc.alloc ticks min=164 avg=2155.4 max=26729 (n=3070)
+emalloc.free ticks min=207 avg=2019.0 max=143799 (n=3070)
+freertos.alloc ticks min=157 avg=175.2 max=623 (n=2679)
+freertos.free ticks min=127 avg=465.7 max=1171 (n=2678)
+libc.alloc ticks min=320 avg=375.0 max=3967 (n=3070)
+libc.free ticks min=311 avg=352.8 max=991 (n=3070)
+
+[12/15] Running test: Alloc6Release2_64b
+libc heap: free chunk=1, free fastbin=0, free=68840 alloc=4
+emalloc.alloc ticks min=164 avg=1742.0 max=18550 (n=2039)
+emalloc.free ticks min=207 avg=2030.0 max=102737 (n=2038)
+freertos.alloc ticks min=157 avg=184.8 max=726 (n=1841)
+freertos.free ticks min=127 avg=393.6 max=967 (n=1840)
+libc.alloc ticks min=320 avg=383.5 max=4016 (n=3070)
+libc.free ticks min=311 avg=354.6 max=691 (n=3070)
+
+[13/15] Running test: Alloc6Release2_128b
+libc heap: free chunk=1, free fastbin=0, free=101608 alloc=4
+emalloc.alloc ticks min=177 avg=1074.6 max=12714 (n=1214)
+emalloc.free ticks min=207 avg=1702.6 max=52242 (n=1213)
+freertos.alloc ticks min=157 avg=255.5 max=624 (n=1144)
+freertos.free ticks min=127 avg=319.0 max=811 (n=1143)
+libc.alloc ticks min=320 avg=392.7 max=3581 (n=2805)
+libc.free ticks min=311 avg=357.7 max=1042 (n=2804)
+
+[14/15] Running test: Alloc6Release2_256b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=190 avg=680.3 max=8020 (n=617)
+emalloc.free ticks min=207 avg=1340.6 max=36446 (n=616)
+freertos.alloc ticks min=157 avg=278.3 max=624 (n=678)
+freertos.free ticks min=127 avg=247.3 max=505 (n=677)
+libc.alloc ticks min=320 avg=407.5 max=3725 (n=1588)
+libc.free ticks min=311 avg=360.7 max=1043 (n=1587)
+
+[15/15] Running test: Alloc6Release2_512b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=164 avg=613.4 max=4912 (n=369)
+emalloc.free ticks min=207 avg=1344.3 max=28474 (n=368)
+freertos.alloc ticks min=157 avg=276.7 max=573 (n=354)
+freertos.free ticks min=127 avg=210.5 max=373 (n=353)
+libc.alloc ticks min=320 avg=427.0 max=2879 (n=830)
+libc.free ticks min=311 avg=364.9 max=1094 (n=829)
+
+
+All tests completed: 15/15
+About to restart testing 10
+About to restart testing 9
+About to restart testing 8
+About to restart testing 7
+About to restart testing 6
+About to restart testing 5
+About to restart testing 4
+About to restart testing 3
+About to restart testing 2
+About to restart testing 1
+empty number of cycles:12
+f_clk_sys:125000 khz
+Running 15 tests...
+[1/15] Running test: AllocAll16FreeOdd
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=213 avg=213.5 max=995 (n=2048)
+emalloc.free ticks min=234 avg=249.3 max=888 (n=2048)
+freertos.alloc ticks min=165 avg=165.1 max=366 (n=2048)
+freertos.free ticks min=127 avg=1674.0 max=6282 (n=2048)
+libc.alloc ticks min=367 avg=369.6 max=3561 (n=2048)
+libc.free ticks min=322 avg=366.9 max=1143 (n=2048)
+
+[2/15] Running test: AllocAll16FreeEven
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=213 avg=213.4 max=995 (n=2048)
+emalloc.free ticks min=234 avg=249.3 max=861 (n=2048)
+freertos.alloc ticks min=165 avg=165.2 max=518 (n=2048)
+freertos.free ticks min=127 avg=1674.0 max=6265 (n=2048)
+libc.alloc ticks min=367 avg=368.4 max=3225 (n=2048)
+libc.free ticks min=336 avg=366.7 max=993 (n=2048)
+
+[3/15] Running test: AllocAll16FreeOddReversed
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=213 avg=213.2 max=593 (n=2048)
+emalloc.free ticks min=234 avg=249.3 max=918 (n=2048)
+freertos.alloc ticks min=165 avg=165.3 max=722 (n=2048)
+freertos.free ticks min=127 avg=139.5 max=152 (n=2048)
+libc.alloc ticks min=367 avg=368.2 max=2924 (n=2048)
+libc.free ticks min=322 avg=366.7 max=941 (n=2048)
+
+[4/15] Running test: AllocAll16FreeEvenReversed
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=213 avg=213.1 max=491 (n=2048)
+emalloc.free ticks min=207 avg=249.3 max=888 (n=2048)
+freertos.alloc ticks min=165 avg=165.3 max=873 (n=2048)
+freertos.free ticks min=127 avg=139.5 max=152 (n=2048)
+libc.alloc ticks min=367 avg=368.4 max=3226 (n=2048)
+libc.free ticks min=336 avg=366.8 max=942 (n=2048)
+
+[5/15] Running test: Alloc5Release3_16b
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=164 avg=4165.7 max=27243 (n=5114)
+emalloc.free ticks min=207 avg=2290.2 max=124905 (n=5114)
+freertos.alloc ticks min=157 avg=171.2 max=1083 (n=5114)
+freertos.free ticks min=127 avg=484.0 max=1945 (n=5114)
+libc.alloc ticks min=320 avg=357.4 max=3164 (n=5114)
+libc.free ticks min=311 avg=345.1 max=842 (n=5114)
+
+[6/15] Running test: Alloc5Release3_64b
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=164 avg=3295.7 max=20719 (n=3308)
+emalloc.free ticks min=207 avg=3453.7 max=90111 (n=3307)
+freertos.alloc ticks min=157 avg=247.9 max=726 (n=2960)
+freertos.free ticks min=127 avg=370.1 max=1477 (n=2959)
+libc.alloc ticks min=320 avg=376.5 max=3860 (n=5114)
+libc.free ticks min=311 avg=346.9 max=1016 (n=5114)
+
+[7/15] Running test: Alloc5Release3_128b
+libc heap: free chunk=1, free fastbin=0, free=101608 alloc=4
+emalloc.alloc ticks min=162 avg=2321.7 max=65463 (n=2011)
+emalloc.free ticks min=207 avg=3326.4 max=74941 (n=2010)
+freertos.alloc ticks min=157 avg=365.2 max=886 (n=1836)
+freertos.free ticks min=127 avg=324.7 max=1099 (n=1835)
+libc.alloc ticks min=320 avg=388.2 max=4233 (n=4614)
+libc.free ticks min=311 avg=349.6 max=1194 (n=4613)
+
+[8/15] Running test: Alloc5Release3_256b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=177 avg=1381.6 max=8720 (n=1012)
+emalloc.free ticks min=207 avg=2366.6 max=28605 (n=1011)
+freertos.alloc ticks min=157 avg=391.4 max=843 (n=1050)
+freertos.free ticks min=127 avg=284.0 max=787 (n=1049)
+libc.alloc ticks min=320 avg=408.3 max=3761 (n=2506)
+libc.free ticks min=311 avg=352.5 max=1191 (n=2505)
+
+[9/15] Running test: Alloc5Release3_512b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=164 avg=994.9 max=5943 (n=538)
+emalloc.free ticks min=207 avg=1763.5 max=19669 (n=537)
+freertos.alloc ticks min=157 avg=322.3 max=753 (n=567)
+freertos.free ticks min=127 avg=229.6 max=475 (n=566)
+libc.alloc ticks min=320 avg=434.2 max=3424 (n=1316)
+libc.free ticks min=311 avg=357.4 max=1144 (n=1315)
+
+[10/15] Running test: Alloc6Release2_16b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=162 avg=2317.1 max=22417 (n=3070)
+emalloc.free ticks min=207 avg=1568.2 max=139328 (n=3070)
+freertos.alloc ticks min=157 avg=170.5 max=523 (n=3070)
+freertos.free ticks min=127 avg=475.2 max=1051 (n=3070)
+libc.alloc ticks min=320 avg=362.7 max=4018 (n=3070)
+libc.free ticks min=336 avg=352.6 max=892 (n=3070)
+
+[11/15] Running test: Alloc6Release2_32b
+libc heap: free chunk=1, free fastbin=0, free=52456 alloc=4
+emalloc.alloc ticks min=164 avg=2434.8 max=25909 (n=3070)
+emalloc.free ticks min=207 avg=1768.3 max=143154 (n=3070)
+freertos.alloc ticks min=157 avg=175.9 max=623 (n=2681)
+freertos.free ticks min=127 avg=481.6 max=1195 (n=2680)
+libc.alloc ticks min=320 avg=375.7 max=4061 (n=3070)
+libc.free ticks min=311 avg=352.7 max=1045 (n=3070)
+
+[12/15] Running test: Alloc6Release2_64b
+libc heap: free chunk=1, free fastbin=0, free=64744 alloc=4
+emalloc.alloc ticks min=164 avg=1473.4 max=102050 (n=1980)
+emalloc.free ticks min=207 avg=1979.6 max=92236 (n=1979)
+freertos.alloc ticks min=157 avg=185.5 max=626 (n=1836)
+freertos.free ticks min=127 avg=402.6 max=973 (n=1835)
+libc.alloc ticks min=320 avg=383.2 max=4368 (n=3070)
+libc.free ticks min=311 avg=354.6 max=1094 (n=3070)
+
+[13/15] Running test: Alloc6Release2_128b
+libc heap: free chunk=1, free fastbin=0, free=101608 alloc=4
+emalloc.alloc ticks min=164 avg=1089.8 max=13530 (n=1242)
+emalloc.free ticks min=207 avg=1887.6 max=62082 (n=1241)
+freertos.alloc ticks min=157 avg=266.5 max=620 (n=1146)
+freertos.free ticks min=127 avg=327.7 max=907 (n=1145)
+libc.alloc ticks min=320 avg=392.5 max=4025 (n=2788)
+libc.free ticks min=311 avg=357.0 max=1042 (n=2787)
+
+[14/15] Running test: Alloc6Release2_256b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=164 avg=765.9 max=8329 (n=657)
+emalloc.free ticks min=207 avg=1599.3 max=49397 (n=656)
+freertos.alloc ticks min=157 avg=286.6 max=726 (n=655)
+freertos.free ticks min=127 avg=256.1 max=559 (n=654)
+libc.alloc ticks min=320 avg=407.8 max=3744 (n=1559)
+libc.free ticks min=311 avg=360.5 max=1095 (n=1558)
+
+[15/15] Running test: Alloc6Release2_512b
+libc heap: free chunk=1, free fastbin=0, free=3304 alloc=4
+emalloc.alloc ticks min=194 avg=631.4 max=4712 (n=356)
+emalloc.free ticks min=207 avg=1264.8 max=21999 (n=355)
+freertos.alloc ticks min=162 avg=276.0 max=624 (n=352)
+freertos.free ticks min=127 avg=213.4 max=367 (n=351)
+libc.alloc ticks min=320 avg=429.5 max=2723 (n=821)
+libc.free ticks min=322 avg=364.6 max=943 (n=820)
