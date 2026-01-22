@@ -2,8 +2,10 @@
 #include <malloc.h>
 #include <pico/stdlib.h>
 #include <stdlib.h>
+#include <sys/types.h>
 #include <array>
 #include <cstddef>
+#include <cstdint>
 #include <cstdio>
 
 static constexpr uint32_t kMinAllocationSize = 16;
@@ -98,8 +100,16 @@ void AllocAll16FreeOddReversed() {
   alloc_all_16b();
 
   for (uint32_t i = 1; i < kMaxNodesAllocated; i += 2) {
-    free_test(s_allocation_table[kMaxNodesAllocated - i]);
-    s_allocation_table[i] = nullptr;
+    const uint32_t idx = kMaxNodesAllocated - i;
+
+    if (idx >= s_allocation_table.size()) {
+      printf("AllocAll16FreeOddReversed: out of bounds\n");
+      return;
+    }
+
+    free_test(s_allocation_table[idx]);
+
+    s_allocation_table[idx] = nullptr;
     s_allocated--;
   }
 }
@@ -108,8 +118,16 @@ void AllocAll16FreeEvenReversed() {
   alloc_all_16b();
 
   for (uint32_t i = 0; i < (kMaxNodesAllocated - 1); i += 2) {
-    free_test(s_allocation_table[(kMaxNodesAllocated - 2) - i]);
-    s_allocation_table[i] = nullptr;
+    const uint32_t idx = (kMaxNodesAllocated - 2) - i;
+
+    if (idx >= s_allocation_table.size()) {
+      printf("AllocAll16FreeEvenReversed: out of bounds\n");
+      return;
+    }
+
+    free_test(s_allocation_table[idx]);
+
+    s_allocation_table[idx] = nullptr;
     s_allocated--;
   }
 }

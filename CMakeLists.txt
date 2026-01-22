@@ -33,7 +33,7 @@ target_include_directories(
   PRIVATE ${CMAKE_CURRENT_LIST_DIR}/components/FreeRTOS/
           ${CMAKE_CURRENT_LIST_DIR}/components/emalloc/emalloc/emalloc/include/)
 
-target_compile_definitions(${PROJECT} PRIVATE PICO_HEAP_SIZE=110000
+target_compile_definitions(${PROJECT} PRIVATE PICO_HEAP_SIZE=65536
                                               PICO_MALLOC_PANIC=0)
 
 pico_add_extra_outputs(${PROJECT})
